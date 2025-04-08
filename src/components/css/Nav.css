@@ -1,0 +1,45 @@
+nav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav li a {
+  display: block;
+  color: 495e57;
+  text-decoration: none;
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+  font-size: 1.2rem;
+}
+
+nav li a:hover {
+  background-color: #495e57;
+  color: white;
+  border-radius: 0.4rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 150px;
+  max-width: 200px;
+  height: auto;
+}

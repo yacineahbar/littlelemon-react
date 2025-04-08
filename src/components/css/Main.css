@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.main-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.main-header button {
+  color: rgb(0, 0, 0);
+  background-color: #f4ce14;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-style: none;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}

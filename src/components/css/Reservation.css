@@ -1,0 +1,22 @@
+.container {
+  height: 20vh;
+  background-color: #495e57;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.container-title {
+  color: rgb(244, 206, 20);
+  grid-column: span 2;
+}
+
+.form-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-field label {
+  display: block;
+  font-size: 1.5rem;
+  color: white;
+}

@@ -1,0 +1,48 @@
+.header__container {
+  height: 20vh;
+  background-color: #495e57;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.header-container img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.header__cta {
+  flex: 1;
+  margin: 0 auto;
+}
+
+.header__cta h1 {
+  color: #f4ce14;
+}
+
+.header__cta p {
+  color: white;
+  max-width: 25%;
+}
+.header__cta h2 {
+  color: white;
+}
+.header__cta button {
+  color: rgb(0, 0, 0);
+  background-color: #f4ce14;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-style: none;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
